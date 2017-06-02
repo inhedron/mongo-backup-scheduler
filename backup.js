@@ -67,7 +67,7 @@ class Backup {
 
         function(callback) {
               
-          let tempName = "temp.rar";
+          let tempName = config.BACKUP_OPTIONS.tar + "_temp.rar";
           let tempPath = pathHelper.join(config.BACKUP_OPTIONS.root, tempName);
           let realPath = pathHelper.join(config.BACKUP_OPTIONS.root, config.BACKUP_OPTIONS.tar);
 
