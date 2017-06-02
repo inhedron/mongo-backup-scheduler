@@ -1,0 +1,26 @@
+{
+  "name": "mongo-backup-scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inhedron/mongo-backup-scheduler.git"
+  },
+  "author": "Mehmet Aydemir <maydemirx@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/inhedron/mongo-backup-scheduler/issues"
+  },
+  "homepage": "https://github.com/inhedron/mongo-backup-scheduler#readme",
+  "dependencies": {
+    "async": "^2.4.1",
+    "debug": "^2.6.8",
+    "jsesc": "^2.5.1",
+    "mongodb-backup": "^1.6.9",
+    "node-schedule": "^1.2.3"
+  }
+}
