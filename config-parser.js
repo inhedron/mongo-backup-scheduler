@@ -1,3 +1,5 @@
+'use strict';
+
 const jsesc = require('jsesc');
 
 module.exports = function() {
