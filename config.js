@@ -19,5 +19,5 @@ module.exports = {
 	* BACKUP_OPTIONS: run backup process with this options
 	* for detailed description please read: https://github.com/hex7c0/mongodb-backup
 	*/
-	BACKUP_OPTIONS: process.env.BACKUP_OPTIONS || `{"uri": "mongodb://deneme:azx11Q@mongoconfig:27020/service", "root": "${__dirname}","collections": ["thing","thingDef","location","geofence","model","geofence_history"],"tar": "dump.tar"}`
+	BACKUP_OPTIONS: process.env.BACKUP_OPTIONS || `{"uri": "mongouri", "root": "${__dirname}","collections": ["thing","thingDef","location","geofence","model","geofence_history"],"tar": "dump.tar"}`
 };
